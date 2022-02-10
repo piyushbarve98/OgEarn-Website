@@ -8,16 +8,31 @@
     <link rel="stylesheet" href="Style.css">
   </head>
   <body >
+    <div id="preloader"></div>
   <section >
     <div class="columns">
       
       <div class="column is-one-third mx-5">
-      <div class="logo"><img src="cashapp logo.png" height="200px" width="200px"></div>
+      <div class="logo" ><img  src="cashapp logo.png" height="200px" width="200px"></div>
       <input class="input is-medium my-5" type="text" placeholder="Cash App Username">
       <button class="button is-medium is-fullwidth">Earn</button>
       </div>
     </div>
   
   </section>
+
+  <script>
+
+    var loader = document.getElementById("preloader");
+    
+    window.addEventListener("load", function(){
+      setTimeout(function() {
+ 
+        loader.style.display = "none";
+}, 2000);
+        
+    });
+    
+  </script>
   </body>
-</html>
+</html>hhhh
